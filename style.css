@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+#header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+   border-bottom: 5px solid black;
+}
+
+#header nav h1{
+    font-size:2rem;
+    font-weight: 900;
+    margin-right: 25rem;
+    
+}
+
+#header nav img{
+    height: 90px;
+}
+
+
+.carousel-font{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+/* Style the contain class (optional) */
+.contain {
+    /* Background color for the container */
+    padding: 20px; /* Add some padding for spacing */
+    margin-top: 100px;
+}
+
+/* Style the columns */
+.col-md-4 {
+    text-align: center; /* Center the content inside columns */
+    margin-bottom: 20px; /* Add margin to create space between columns */
+}
+
+/* Style the headings (h3) */
+.col-md-4 h3 {
+    font-size: 36px; /* Set the font size for the headings */
+    color: #fff; /* Text color for headings */
+    font-weight: bold;
+}
+
+/* Style the subheadings (h6) */
+.col-md-4 h6 {
+    font-size: 18px; /* Set the font size for the subheadings */
+    color: #fff; /* Text color for subheadings */
+}
+
+
+
+/*--------------------------------------------------footer------------------------------------------------*/
+#footer{
+    background-image:  linear-gradient(to right, #071952 , black); 
+    color: #fff;
+}
+
+.footer-box{
+    padding: 20px;
+}
+
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+    background-image:  linear-gradient(to right, #071952 , black);   
+}
+
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    max-width: 250px;
+
+
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-image:  linear-gradient(to right, #071952, #5f1782);    
+}
+
+hr{
+    color: #fff;
+}
+.copyright{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.phone 
+{
+    padding-right: 88px;
+}
+.address{
+    padding-right: 30px;
+}
+.mail{
+    padding-right: 67px;
+}
+
+/*----------------------------------------------Social Media----------------------------------------------------------*/
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*------------------------------------services section------------------------------------------*/
+#services{
+    padding:80px 0px;
+    
+}
+.service-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* To handle images with different aspect ratios */
+    border-radius: 50%;
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600 ;
+}
+.titleofservices::before{
+    content: '';
+    background: #071952;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+
+}
+.titleofservices::after{
+    content: '';
+    background: #071952;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+
+}
+#services .btn-primary{
+  box-shadow: none;
+  background-image:  linear-gradient(to right, #071952 , black);
+  padding: 8px 25px;
+  border: none;
+   border-radius: 25px;
+}
