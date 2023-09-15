@@ -14,12 +14,25 @@
    border-bottom: 5px solid black;
 }
 
-#header nav h1{
+.heading{
     font-size:2rem;
     font-weight: 900;
     margin-right: 25rem;
     
+    
 }
+
+
+@media (max-width: 768px) {
+   .heading {
+      font-size: 12px; 
+      white-space: nowrap;
+    }
+
+    .heading-img{
+        height: 10px;
+    }
+  }
 
 #header nav img{
     height: 90px;
